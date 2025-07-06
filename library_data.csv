@@ -1,0 +1,30 @@
+Books
+BookID,Title,Author,Publisher,ISBN,Year,Status,ReservationQueue
+B2001,The Alchemist,Paulo Coelho,HarperOne,9780062315007,1988,Borrowed,
+B2002,The Kite Runner,Khaled Hosseini,Riverhead Books,9781594480003,2003,Available,
+B2003,The Book Thief,Markus Zusak,Picador,9780375842207,2005,Available,
+B2004,The Night Circus,Erin Morgenstern,Doubleday,9780385534635,2011,Available,
+B2005,The Martian,Andy Weir,Crown Publishing Group,9780804139021,2014,Available,
+B2006,The Da Vinci Code,Dan Brown,Doubleday,9780307474278,2003,Available,
+B2007,The Girl with the Dragon Tattoo,Stieg Larsson,Vintage Crime,9780307949486,2005,Available,
+B2008,The Hunger Games,Suzanne Collins,Scholastic Press,9780439023481,2008,Available,
+B2009,The Road,Cormac McCarthy,Vintage International,9780307387899,2006,Available,
+B2010,The Shining,Stephen King,Doubleday,9780385121675,1977,Available,
+
+Users
+UserID,Name,Password,UserType
+S3001,Alice Johnson,alice123,student
+S3002,Bob Smith,bob456,student
+S3003,Charlie Brown,charlie789,student
+S3004,David Wilson,david101,student
+S3005,Eve Davis,eve202,student
+F2001,Dr. Emily White,emily303,faculty
+F2002,Dr. John Green,john404,faculty
+F2003,Dr. Sarah Black,sarah505,faculty
+L2001,Laura Taylor,laura606,librarian
+
+CurrentBookings
+BookingID,UserID,BookID,BookingDate,BorrowDate,ReturnDate,Fine,Type
+
+HistoryBookings
+BookingID,UserID,BookID,BookingDate,BorrowDate,ReturnDate,Fine,Type
